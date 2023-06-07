@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import ContactForm from "@/components/ContactForm";
+import { NavigationButton } from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,9 @@ export default function RootLayout(props: {
         {props.landing}
         <ContactForm />
         <Footer />
+        <div className="absolute top-2 left-2">
+          <NavigationButton />
+        </div>
       </body>
     </html>
   );

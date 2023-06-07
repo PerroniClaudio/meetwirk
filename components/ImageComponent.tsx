@@ -15,7 +15,7 @@ function ImageComponent({ imageUrl, children, invert }: Props) {
   }
 
   return (
-    <div className={`flex items-stretch flex-col ${rowClass}`}>
+    <div className={`flex items-stretch flex-col ${rowClass} lg:min-h-[600px]`}>
       <div className="lg:w-1/2  bg-neutral-900 text-white flex flex-col items-center justify-center">
         {children}
       </div>
