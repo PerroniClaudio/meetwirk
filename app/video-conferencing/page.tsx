@@ -51,10 +51,9 @@ function VideoConferencingPage({}: Props) {
               MICROSOFT TEAMS ROOMS PER ANDROID​
             </h1>
             <p className="text-2xl text-center">
-              Per la massima semplicità e facilità di configurazione,
-              l&apos;appliance all-in-one che esegue Microsoft Teams Rooms su
-              sistema operativo Android rende l’installazione e la
-              configurazione un gioco da ragazzi.​
+              Per la massima semplicità e facilità di configurazione.
+              L’appliance all-in-one che esegue Microsoft Teams Rooms su sistema
+              operativo Android.​
             </p>
           </div>
         </ImageComponent>

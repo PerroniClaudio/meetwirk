@@ -8,20 +8,21 @@ export default function ByPlatformPage() {
   return (
     <main className="flex min-h-screen flex-col">
       {/* Hero */}
-      <Hero />
+      <Hero>
+        <h1 className="text-6xl lg:text-8xl font-bold text-center text-gray-50 drop-shadow-md">
+          Ridisegna il futuro <br /> della tua azienda
+        </h1>
+      </Hero>
 
       <div className="container mx-auto px-8 py-32 flex flex-col gap-8 text-center text-gray-800 text-xl lg:text-3xl">
         <p className="">
-          Il lavoro &egrave; diventato fluido e flessibile e le soluzioni&nbsp;
-          <span className="text-torch-500">Microsoft Teams</span> <br /> sono
-          l&apos;avanguardia per il lavoro ibrido.
+          Cambia la modalità di lavoro e potenzia la produttività con&nbsp;
+          <span className="text-torch-500">Microsoft Teams</span>
         </p>
 
         <p>
-          Ti forniamo prodotti audio e video <br /> di livello professionale,
-          per offrirti straordinarie esperienze con <br />
-          <span className="text-torch-500">Microsoft Teams</span> – ovunque ti
-          trovi.
+          Ti forniamo prodotti audio e video di livello professionale, per
+          collaborare efficacemente – ovunque ti trovi.​
         </p>
       </div>
 

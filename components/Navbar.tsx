@@ -23,22 +23,22 @@ const components: { title: string; href: string; description: string }[] = [
     description: "La soluzione migliore per il tuo business?",
   },
   {
-    title: "BY PLATFORM",
+    title: "BY DIGITAL PLATFORM",
     href: "/by-platform",
     description:
-      "Prodotti audio e video di livello professionale, per offrirti straordinarie esperienze con Microsoft Teams - ovunque ti trovi",
+      "Cambia la modalità di lavoro e potenzia la produttività con Microsoft Teams. Ti forniamo prodotti audio e video di livello professionale, per collaborare efficacemente – ovunque ti trovi",
   },
   {
     title: "BY INDUSTRY",
     href: "/by-industry",
     description:
-      "Coinvolgi le persone. Crea connessioni più profonde. Ottieni di più. Con potenti prodotti e servizi di collaboration per il tuo settore. Nessuno è meglio di noi nell’aiutare le persone a lavorare insieme per fare qualcosa di eccezionale.",
+      "Porta il cliente all’interno della tua azienda virtuale in modo tale da presentare i tuoi migliori prodotti anche da remoto. Rendi la tua azienda flessibile e competitiva. Attiva gli strumenti di collaboration in ogni settore della tua azienda, compresa la produzione.",
   },
   {
     title: "BY WORKSPACE",
     href: "/by-workspace",
     description:
-      "Come tutti i migliori nuovi assunti, ognuna delle nostre soluzioni entra nei tuoi sistemi e si mette subito al lavoro. Grazie alla partnership con Microsoft ti offriamo una suite di prodotti realizzati appositamente.",
+      "Sicurezza, efficienza e performance. Semplifica il tuo lavoro rendendo accessibili dati e applicazioni in qualsiasi momento e da qualsiasi luogo, in completa sicurezza. Scopri gli strumenti più adatti per i tuoi collaboratori aziendali",
   },
 ];
 

@@ -1,40 +1,27 @@
 import React from "react";
 import ImageComponent from "@/components/ImageComponent";
 import Link from "next/link";
+import Hero from "@/components/Hero";
 
 type Props = {};
 
 function ByWorkspacePage({}: Props) {
   return (
     <main className="flex min-h-screen flex-col">
-      <section
-        className="w-screen min-h-[45vh] bg-center bg-cover bg-no-repeat "
-        style={{ backgroundImage: "url(/images/hero.webp)" }}>
-        <div className="h-full min-h-[45vh] w-full bg-neutral-900/80 px-8 py-16 flex flex-col gap-8 items-center justify-center ">
-          <h1 className="text-6xl lg:text-8xl font-bold text-center text-gray-50 drop-shadow-md">
-            NOI COLLABORIAMO <br />
-            ORA PUOI FARLO ANCHE TU
-          </h1>
-          <h3 className="text-lg lg:text-4xl font-semibold text-torch-500 text-center drop-shadow-md">
-            La collaborazione è la chiave del successo <br /> scopri come
-            ottenere soluzioni integrate e performanti
-          </h3>
-          <button className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
-            Scopri di più
-          </button>
-        </div>
-      </section>
-      <div className="container mx-auto px-8 py-32 flex flex-col gap-4 text-center text-gray-800 text-xl lg:text-3xl">
-        <p className="">
-          Come tutti i migliori nuovi assunti, ognuna delle nostre soluzioni
-          <br />
-          entra nei tuoi sistemi e si mette subito al lavoro.
-        </p>
+      <Hero>
+        <h1 className="text-6xl lg:text-8xl font-bold text-center text-gray-50 drop-shadow-md">
+          Lavora come vuoi <br /> ovunque sei​
+        </h1>
+      </Hero>
 
+      <div className="container mx-auto px-8 py-32 flex flex-col gap-4 text-center text-gray-800 text-xl lg:text-3xl">
+        <p className="">Sicurezza, efficienza e performance.</p>
         <p>
-          Grazie alla partnership con
-          <span className="text-torch-500"> Microsoft</span> ti offriamo una
-          suite <br /> di prodotti realizzati appositamente.
+          Semplifica il tuo lavoro rendendo accessibili dati e applicazioni in
+          qualsiasi momento e da qualsiasi luogo, in completa sicurezza.
+        </p>
+        <p>
+          Scopri gli strumenti più adatti per i tuoi collaboratori aziendali.
         </p>
       </div>
 
@@ -68,7 +55,7 @@ function ByWorkspacePage({}: Props) {
             </p>
 
             <Link
-              href="/landing/phones-speakerphones"
+              href="/landing/office-work"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Approfondisci
             </Link>
@@ -86,7 +73,7 @@ function ByWorkspacePage({}: Props) {
               Ovunque ti trovi ti garantiamo ottime performance audio.
             </p>
             <Link
-              href="/landing/headsets"
+              href="/landing/remote-work"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Approfondisci
             </Link>
@@ -102,7 +89,7 @@ function ByWorkspacePage({}: Props) {
             </p>
 
             <Link
-              href="/landing/headsets"
+              href="/landing/on-the-go"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Approfondisci
             </Link>

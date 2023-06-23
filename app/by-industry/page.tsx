@@ -1,36 +1,29 @@
 import React from "react";
 import ImageComponent from "@/components/ImageComponent";
 import Link from "next/link";
+import Hero from "@/components/Hero";
 
 type Props = {};
 
 function ByIndustryPage({}: Props) {
   return (
     <main className="flex min-h-screen flex-col">
-      <section
-        className="w-screen min-h-[45vh] bg-center bg-cover bg-no-repeat "
-        style={{ backgroundImage: "url(/images/hero.webp)" }}>
-        <div className="h-full min-h-[45vh] w-full bg-neutral-900/80 px-8 py-16 flex flex-col gap-8 items-center justify-center ">
-          <h1 className="text-6xl lg:text-8xl font-bold text-center text-gray-50 drop-shadow-md">
-            Siamo pronti a lavorare <br /> per la tua azienda
-          </h1>
-          <h3 className="text-lg lg:text-4xl font-semibold text-torch-500 text-center drop-shadow-md">
-            Coinvolgi le persone. <br /> Crea connessioni più profonde.
-            <br /> Ottieni di più.
-          </h3>
-          <button className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
-            Scopri di più
-          </button>
-        </div>
-      </section>
+      <Hero>
+        <h1 className="text-6xl lg:text-8xl font-bold text-center text-gray-50 drop-shadow-md">
+          Siamo pronti a <br /> soddisfare le tue esigenze
+        </h1>
+      </Hero>
+
       <div className="container mx-auto px-8 py-32 flex flex-col gap-4 text-center text-gray-800 text-xl lg:text-3xl">
         <p className="">
-          Potenti prodotti e servizi di collaboration per il tuo settore.
+          Porta il cliente all’interno della tua azienda virtuale <br /> in modo
+          tale da presentare i tuoi migliori prodotti anche da remoto.
         </p>
 
+        <p>Rendi la tua azienda flessibile e competitiva. </p>
         <p>
-          Nessuno è meglio di noi nell’aiutare le persone a lavorare insieme{" "}
-          <br /> per fare qualcosa di eccezionale.
+          Attiva gli strumenti di collaboration <br /> in ogni settore della tua
+          azienda, compresa la produzione.​
         </p>
       </div>
 

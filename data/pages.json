@@ -10,23 +10,44 @@
     {
       "id": 1,
       "slug": "phones-speakerphones",
-      "title": "TELEFONI PER MICROSOFT TEAMS​",
+      "title": "TELEFONI PER MICROSOFT TEAMS",
       "image": "landing1.webp",
       "description": "Le tue conversazioni non avranno più rumori di sottofondo.\n\nAscolta e fatti ascoltare con chiarezza.\n\nOffriamo un’ampia gamma di telefoni da scrivania, telefoni per conferenze e vivavoce integrati con Teams che riducono I rumori e migliorano le chiamate di Microsoft Teams.\n\nCon tecnologie innovative, design ergonomici e semplicità soddisfiamo le tue richieste.​ ​"
     },
     {
       "id": 2,
       "slug": "headsets",
-      "title": "HEADSETS PER MICROSOFT TEAMS​",
+      "title": "HEADSETS PER MICROSOFT TEAMS",
       "image": "landing2.webp",
       "description": "Le nostre cuffie sono certificate Microsoft e sono in grado di offrirti una qualità audio professionale, ovunque tu sia, senza interruzioni.\n\nCon la più ampia selezione di cuffie certificate Microsoft Teams, non c’è scelta migliore ."
     },
     {
       "id": 3,
       "slug": "servizi",
-      "title": "I NOSTRI SERVIZI​​",
+      "title": "I NOSTRI SERVIZI",
       "image": "landing3.webp",
       "description": "I nostri tecnici vantano decenni di esperienza per garantire il successo della migrazione , dell’implementazione, dell’adozione  e assistenza di Microsoft Teams.\n\nSaremo in grado di trovare il percoso ottimale più adatto alle vostre esigenze.​"
+    },
+    {
+      "id": 4,
+      "slug": "office-work",
+      "title": "OFFICE WORK",
+      "image": "landing4.webp",
+      "description": "I tuoi strumenti di collaboration sono cambiati per sempre. Gli uffici si adattano ad una tecnologia che supporta la partecipazione di tutti, sia che si colleghino da spazi di gruppo, sia da postazioni personali, da ufficio o da remoto."
+    },
+    {
+      "id": 5,
+      "slug": "remote-work",
+      "title": "REMOTE WORK",
+      "image": "landing5.webp",
+      "description": "Che i vostri dipendenti lavorino dalla camera da letto, dalla spiaggia o dall’aeroporto, le nostre cuffie, le videocamere per videoconferenze, i vivavoce e i telefoni da tavolo, aiutano il vostro team a sentirsi come se tutti fossero nella stessa stanza.\n\nChe si tratti di piccolo spostamenti quotidiani o di viaggi di affari più lunghi, alcuni lavoratori hanno bisogno di rimanere connessi anche in viaggio. Ecco perchè le nostre soluzioni vengono progettate per essere facilmente impacchettate o riposte, in modo tale da poterle utilizzare ovunque."
+    },
+    {
+      "id": 6,
+      "slug": "on-the-go",
+      "title": "ON THE GO",
+      "image": "landing6.webp",
+      "description": "Il lavoro si svolge ovunque. Sul treno. Mentre si prende un caffè. Tra una riunione e l’altra. Non sorprende che quasi il 50% delle chiamate di lavoro avvenga su dispositivi mobili.\n\nIndipendentemente da dove ci si trova è fondamentale che la conversazione abbia un audio eccellente. I nostri dispositivi offrono cancellazione del rumore e la massima qualità audio, per rendervi ancora più produttivi e poter dare il meglio di voi ovunque il lavoro vi porti."
     }
   ]
 }
