@@ -95,6 +95,54 @@ function ByWorkspacePage({}: Props) {
             </Link>
           </div>
         </ImageComponent>
+        <ImageComponent imageUrl="/images/banner10.webp">
+          <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
+            <h1 className="text-4xl font-bold text-torch-500 text-center">
+              AT THE DESK
+            </h1>
+            <p className="text-2xl text-center">
+              Concentrati sul lavoro, non sul rumore
+            </p>
+
+            <Link
+              href="/landing/at-the-desk"
+              className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+              Approfondisci
+            </Link>
+          </div>
+        </ImageComponent>
+        <ImageComponent imageUrl="/images/banner11.webp" invert={true}>
+          <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
+            <h1 className="text-4xl font-bold text-torch-500 text-center">
+              CONFERENCE ROOM
+            </h1>
+            <p className="text-2xl text-center">
+              Meeting straordinari
+            </p>
+
+            <Link
+              href="/landing/conference-room"
+              className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+              Approfondisci
+            </Link>
+          </div>
+        </ImageComponent>
+        <ImageComponent imageUrl="/images/banner12.webp">
+          <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
+            <h1 className="text-4xl font-bold text-torch-500 text-center">
+              HUDDLE SPACE
+            </h1>
+            <p className="text-2xl text-center">
+              Grandi idee, piccoli spazi
+            </p>
+
+            <Link
+              href="/landing/huddle-space"
+              className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+              Approfondisci
+            </Link>
+          </div>
+        </ImageComponent>
       </section>
     </main>
   );

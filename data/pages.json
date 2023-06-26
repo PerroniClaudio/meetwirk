@@ -48,6 +48,27 @@
       "title": "ON THE GO",
       "image": "landing6.webp",
       "description": "Il lavoro si svolge ovunque. Sul treno. Mentre si prende un caffè. Tra una riunione e l’altra. Non sorprende che quasi il 50% delle chiamate di lavoro avvenga su dispositivi mobili.\n\nIndipendentemente da dove ci si trova è fondamentale che la conversazione abbia un audio eccellente. I nostri dispositivi offrono cancellazione del rumore e la massima qualità audio, per rendervi ancora più produttivi e poter dare il meglio di voi ovunque il lavoro vi porti."
+    },
+    {
+      "id": 7,
+      "slug": "at-the-desk",
+      "title": "AT THE DESK",
+      "image": "landing7.webp",
+      "description": "Assicuratevi che le conversazioni e i rumori circostanti non vengano percepiti dall’altro capo della chiamata.\n\nI nostri microfoni sono in grado di bloccare i rumori esterni e ottimizzare la chiarezza della chiamata, in modo tale che si senta solo la vostra voce. Forte e chiara."
+    },
+    {
+      "id": 8,
+      "slug": "conference-room",
+      "title": "CONFERENCE ROOM",
+      "image": "landing8.webp",
+      "description": "Indipendentemente dalle dimensioni della vostra sala conferenze avete bisogno di una qualità eccezionale: video e audio che vi facciano sentire come se foste nella stessa stanza.\n\nCondivsione di contenuti ovunque si trovi il vostro team\n\nUna tecnologia che crea potenti connessioni."
+    },
+    {
+      "id": 9,
+      "slug": "huddle-space",
+      "title": "HUDDLE SPACE",
+      "image": "landing9.webp",
+      "description": "Check-in settimanali, brainstorming di gruppo, allineamenti del team all’ultimo minuto: le huddle room sono sempre più utilizzate.\n\nAbbiamo soluzioni apposite per questi spazi più piccoli, facili da gestire.\n\nDalle barre video USB che si collegano facilmente a un PC, alle soluzioni all-in-one adatte alla vostra applicazione video cloud preferita."
     }
   ]
 }
