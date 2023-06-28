@@ -14,24 +14,29 @@ function OfficeWorkPage({}: Props) {
             OFFICE WORK
           </h1>
 
-          <button className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
-            Scopri di più
-          </button>
+          <a href="#contact-us" className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+            Contattaci
+          </a>
         </div>
       </section>
 
-      <div className="container mx-auto px-8 py-32 flex flex-col gap-4 text-center text-gray-800 text-xl lg:text-3xl">
-        <p>I tuoi strumenti di collaboration sono cambiati per sempre.</p>
-        <p>
-          Gli uffici si adattano ad una tecnologia che supporta la
-          partecipazione di tutti, sia che si colleghino da spazi di gruppo, sia
-          da postazioni personali, da ufficio o da remoto.
-        </p>
+      <div  className="bg-bottom bg-cover bg-no-repeat" style={{ backgroundImage: "url(/images/onde-bianche.webp)" }}>
+        <div className="container mx-auto px-8 py-32 flex flex-col gap-4 text-center text-gray-800 text-xl lg:text-3xl">
+          <p>I tuoi strumenti di collaboration sono cambiati per sempre.</p>
+          <p>
+            Gli uffici si adattano ad una tecnologia che supporta la
+            partecipazione di tutti, sia che si colleghino da spazi di gruppo, sia
+            da postazioni personali, da ufficio o da remoto.
+          </p>
+        </div>
       </div>
 
       <section className="flex flex-col gap-4 bg-torch-500">
         <ImageComponent imageUrl="/images/landing/officework1.webp">
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
+            <h1 className="text-4xl font-bold text-torch-500 text-center">
+              DAI AI TUOI DIPENDENTI QUELLO DI CUI HANNO BISOGNO
+            </h1>
             <p className="text-2xl text-center">
               La tua forza-lavoro torna in ufficio con nuove aspettative
             </p>
@@ -51,7 +56,7 @@ function OfficeWorkPage({}: Props) {
           invert={true}>
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
-              MICROSOFT TEAMS ROOMS PER WINDOWS​
+            SOLUZIONI PER OGNI MODALITÀ DI LAVORO
             </h1>
             <p className="text-2xl text-center">
               I dipendenti torneranno in ufficio in modi e orari diversi.
@@ -66,6 +71,7 @@ function OfficeWorkPage({}: Props) {
           </div>
         </ImageComponent>
       </section>
+
     </main>
   );
 }

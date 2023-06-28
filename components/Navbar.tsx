@@ -48,7 +48,8 @@ export function NavigationButton() {
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>
-            <FaBars />
+            <img src="/images/favicon-ift.webp" alt="logo" className="w-6 h-6" />
+            {/* <FaBars /> */}
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">

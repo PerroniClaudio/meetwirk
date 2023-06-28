@@ -13,6 +13,9 @@ function LandingDynamicId({
 }) {
   const page = pages.pages.find((page) => page.slug === params.slug);
 
+  // Non lo usiamo più per il momento
+  return null;
+
   if (!page) {
     return <Modal>Page not found</Modal>;
   }

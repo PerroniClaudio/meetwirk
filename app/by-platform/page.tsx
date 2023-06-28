@@ -22,7 +22,7 @@ export default function ByPlatformPage() {
 
         <p>
           Ti forniamo prodotti audio e video di livello professionale, per
-          collaborare efficacemente – ovunque ti trovi.​
+          collaborare efficacemente ovunque ti trovi.
         </p>
       </div>
 
@@ -40,10 +40,11 @@ export default function ByPlatformPage() {
             </p>
             <p className="text-2xl text-center">
               Ti offriamo un&apos;esperienza di collaboration end to end con
-              Microsoft Teams.​
+              Microsoft Teams.
             </p>
             <Link
-              href="/landing/video-conferencing"
+              // href="/landing/video-conferencing"
+              href="/video-conferencing"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Approfondisci
             </Link>
@@ -58,11 +59,12 @@ export default function ByPlatformPage() {
               Telefoni e vivavoce che offrono comunicazioni vocali nitide.
             </p>
             <p className="text-2xl text-center">
-              Stile accattivante, semplici da usare, certificati Microsoft
-              Teams​
+              Semplici da usare, certificati Microsoft
+              Teams.
             </p>
             <Link
-              href="/landing/phones-speakerphones"
+              // href="/landing/phones-speakerphones"
+              href="/phones-speakerphones"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Approfondisci
             </Link>
@@ -81,7 +83,8 @@ export default function ByPlatformPage() {
               Cuffie certificate Teams per le tue conversazioni più importanti.​
             </p>
             <Link
-              href="/landing/headsets"
+              // href="/landing/headsets"
+              href="/headsets"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Approfondisci
             </Link>
@@ -111,7 +114,8 @@ export default function ByPlatformPage() {
             </div>
             <div className="w-full flex items-center justify-center">
               <Link
-                href="/landing/servizi"
+                // href="/landing/servizi"
+                href="/servizi"
                 className="bg-torch-500 text-gray-50 text-2xl px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
                 Approfondisci
               </Link>

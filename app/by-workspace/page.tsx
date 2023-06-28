@@ -10,7 +10,7 @@ function ByWorkspacePage({}: Props) {
     <main className="flex min-h-screen flex-col">
       <Hero>
         <h1 className="text-6xl lg:text-8xl font-bold text-center text-gray-50 drop-shadow-md">
-          Lavora come vuoi <br /> ovunque sei​
+          Lavora come vuoi <br /> ovunque ti trovi
         </h1>
       </Hero>
 
@@ -26,7 +26,7 @@ function ByWorkspacePage({}: Props) {
       </div>
 
       <section className="flex flex-col gap-4 bg-torch-500">
-        <ImageComponent imageUrl="/images/banner7.webp">
+        {/* <ImageComponent imageUrl="/images/banner7.webp">
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
               HYBRID WORKING​
@@ -44,8 +44,8 @@ function ByWorkspacePage({}: Props) {
               Approfondisci
             </Link>
           </div>
-        </ImageComponent>
-        <ImageComponent imageUrl="/images/banner8.webp" invert={true}>
+        </ImageComponent> */}
+        <ImageComponent imageUrl="/images/banner8.webp">
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
               OFFICE WORK
@@ -55,16 +55,17 @@ function ByWorkspacePage({}: Props) {
             </p>
 
             <Link
-              href="/landing/office-work"
+              // href="/landing/office-work"
+              href="/office-work"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Approfondisci
             </Link>
           </div>
         </ImageComponent>
-        <ImageComponent imageUrl="/images/banner9.webp">
+        <ImageComponent imageUrl="/images/banner9.webp" invert={true}>
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
-              REMOTE WORK​
+              REMOTE WORK
             </h1>
             <p className="text-2xl text-center">
               Preoccupati del tuo business, all’audio ci pensiamo noi.
@@ -73,13 +74,14 @@ function ByWorkspacePage({}: Props) {
               Ovunque ti trovi ti garantiamo ottime performance audio.
             </p>
             <Link
-              href="/landing/remote-work"
+              // href="/landing/remote-work"
+              href="/remote-work"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Approfondisci
             </Link>
           </div>
         </ImageComponent>
-        <ImageComponent imageUrl="/images/banner3.webp" invert={true}>
+        <ImageComponent imageUrl="/images/banner3.webp">
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
               ON THE GO
@@ -89,13 +91,14 @@ function ByWorkspacePage({}: Props) {
             </p>
 
             <Link
-              href="/landing/on-the-go"
+              // href="/landing/on-the-go"
+              href="/on-the-go"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Approfondisci
             </Link>
           </div>
         </ImageComponent>
-        <ImageComponent imageUrl="/images/banner10.webp">
+        <ImageComponent imageUrl="/images/banner10.webp" invert={true}>
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
               AT THE DESK
@@ -105,29 +108,31 @@ function ByWorkspacePage({}: Props) {
             </p>
 
             <Link
-              href="/landing/at-the-desk"
+              // href="/landing/at-the-desk"
+              href="/at-the-desk"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Approfondisci
             </Link>
           </div>
         </ImageComponent>
-        <ImageComponent imageUrl="/images/banner11.webp" invert={true}>
+        <ImageComponent imageUrl="/images/banner11.webp">
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
               CONFERENCE ROOM
             </h1>
             <p className="text-2xl text-center">
-              Meeting straordinari
+              Riunioni produttive ed efficaci grazie a ottime prestazioni tecniche
             </p>
 
             <Link
-              href="/landing/conference-room"
+              // href="/landing/conference-room"
+              href="/conference-room"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Approfondisci
             </Link>
           </div>
         </ImageComponent>
-        <ImageComponent imageUrl="/images/banner12.webp">
+        <ImageComponent imageUrl="/images/banner12.webp" invert={true}>
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
               HUDDLE SPACE
@@ -137,7 +142,8 @@ function ByWorkspacePage({}: Props) {
             </p>
 
             <Link
-              href="/landing/huddle-space"
+              // href="/landing/huddle-space"
+              href="/huddle-space"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Approfondisci
             </Link>

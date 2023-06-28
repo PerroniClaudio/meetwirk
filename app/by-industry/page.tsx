@@ -23,7 +23,7 @@ function ByIndustryPage({}: Props) {
         <p>Rendi la tua azienda flessibile e competitiva. </p>
         <p>
           Attiva gli strumenti di collaboration <br /> in ogni settore della tua
-          azienda, compresa la produzione.​
+          azienda, compresa la produzione.
         </p>
       </div>
 
@@ -41,10 +41,10 @@ function ByIndustryPage({}: Props) {
               Dai vita alle tue competenze trasversali con audio e video
               professionali che offrono esperienze di qualità, bloccano i rumori
               esterni, eliminano le luci d’ombra e mantengono l’attenzione su di
-              voi e sui vostri messaggi.
+              voi e sulla vostra conversazione.
             </p>
             <Link
-              href="/#"
+              href="#contact-us"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Contattaci
             </Link>
@@ -62,12 +62,12 @@ function ByIndustryPage({}: Props) {
             <p className="text-2xl text-center">
               Le soluzioni di collaboration che ti offriamo migliorano la tua
               sicurezza, potenziano i tuoi servizi, permettono corsi di
-              formazione a distanza mitigando i costi dei tuoi processi
+              formazione a distanza, mitigando i costi dei tuoi processi
               tradizionali.
             </p>
 
             <Link
-              href="/#"
+              href="#contact-us"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Contattaci
             </Link>

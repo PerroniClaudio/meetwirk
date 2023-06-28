@@ -14,46 +14,45 @@ function VideoConferencingPage({}: Props) {
             SOLUZIONI VIDEO <br />
             PER MICROSOFT TEAMS
           </h1>
-          <h3 className="text-lg lg:text-4xl font-semibold text-torch-500 text-center drop-shadow-md">
+          {/* <h3 className="text-lg lg:text-4xl font-semibold text-torch-500 text-center drop-shadow-md">
             Eleva la tua connessione umana <br /> con le nostre soluzioni video
             per Microsoft Teams
-          </h3>
-          <button className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
-            Scopri di più
-          </button>
+          </h3> */}
+          <a href="#contact-us" className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+            Contattaci
+          </a>
         </div>
       </section>
-      <div className="container mx-auto px-8 py-32 flex flex-col gap-4 text-center text-gray-800 text-xl lg:text-3xl">
-        <p className="">
-          A volte capisci di aver centrato il punto con un solo sguardo.
-        </p>
-        <p>
-          Il valore della{" "}
-          <span className="text-torch-500">connessione umana</span> rende le
-          soluzioni video fondamentali nel business.
-        </p>
-        <p>
-          Ecco perchè le nostre soluzioni di collaboration con{" "}
-          <span className="text-torch-500">Microsoft</span> offrono scelte per
-          qualsiasi tipo di esigenza.
-        </p>
-        <p>
-          Dispositivi Teams per le room, periferiche USB personali e soluzioni
-          di interoperabilità video per dispositivi legacy è quello che troverai
-          da noi.
-        </p>
+      <div  className="bg-bottom bg-cover bg-no-repeat" style={{ backgroundImage: "url(/images/onde-bianche.webp)" }}>
+        <div className="container mx-auto px-8 py-32 flex flex-col gap-4 text-center text-gray-800 text-xl lg:text-3xl">
+          <p>
+            Il valore della{" "}
+            <span className="text-torch-500">connessione umana</span> rende le
+            soluzioni video fondamentali nel business.
+          </p>
+          <p>
+            Ecco perchè le nostre soluzioni di collaboration con{" "}
+            <span className="text-torch-500">Microsoft</span> offrono scelte per
+            qualsiasi tipo di esigenza.
+          </p>
+          <p>
+            Dispositivi Teams per le room, periferiche USB personali e soluzioni
+            di interoperabilità video per dispositivi legacy è quello che troverai
+            da noi.
+          </p>
+        </div>
       </div>
 
       <section className="flex flex-col gap-4 bg-torch-500">
         <ImageComponent imageUrl="/images/landing/videoconference.webp">
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
-              MICROSOFT TEAMS ROOMS PER ANDROID​
+              MICROSOFT TEAMS ROOMS PER ANDROID
             </h1>
             <p className="text-2xl text-center">
               Per la massima semplicità e facilità di configurazione.
               L’appliance all-in-one che esegue Microsoft Teams Rooms su sistema
-              operativo Android.​
+              operativo Android.
             </p>
           </div>
         </ImageComponent>
