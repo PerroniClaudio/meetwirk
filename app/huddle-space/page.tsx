@@ -25,8 +25,9 @@ function HuddleSpacePage({}: Props) {
         <div className="container mx-auto px-8 py-32 flex flex-col gap-4 text-center text-gray-800 text-xl lg:text-3xl">
           <p className="">
             Check-in settimanali, brainstorming di gruppo, allineamenti del team
-            all’ultimo minuto: le huddle room sono sempre più utilizzate.
+            all’ultimo minuto.
           </p>
+          <p>Le huddle-room sono la soluzione.</p>
         </div>
       </div>
 

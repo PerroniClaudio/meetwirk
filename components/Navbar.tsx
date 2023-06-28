@@ -17,11 +17,11 @@ import {
 import { FaBars } from "react-icons/fa";
 
 const components: { title: string; href: string; description: string }[] = [
-  {
-    title: "HOME",
-    href: "/",
-    description: "La soluzione migliore per il tuo business?",
-  },
+  // {
+  //   title: "HOME",
+  //   href: "/",
+  //   description: "La soluzione migliore per il tuo business?",
+  // },
   {
     title: "BY DIGITAL PLATFORM",
     href: "/by-platform",
@@ -40,6 +40,13 @@ const components: { title: string; href: string; description: string }[] = [
     description:
       "Sicurezza, efficienza e performance. Semplifica il tuo lavoro rendendo accessibili dati e applicazioni in qualsiasi momento e da qualsiasi luogo, in completa sicurezza. Scopri gli strumenti più adatti per i tuoi collaboratori aziendali",
   },
+  {
+    title: "SERVICES",
+    href: "/servizi",
+    description:
+      "Scegli il percorso migliore per implementare Microsoft Teams, grazie ai nostri servizi.",
+  },
+  
 ];
 
 export function NavigationButton() {
@@ -53,6 +60,17 @@ export function NavigationButton() {
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+              <div className="col-span-2 flex w-full justify-center">
+                <ListItem
+                  key="HOME"
+                  title="HOME"
+                  href="/"
+                  className="w-full"
+                >
+                  La soluzione migliore per il tuo business?
+                </ListItem>
+              </div>
+
               {components.map((component) => (
                 <ListItem
                   key={component.title}
@@ -61,6 +79,18 @@ export function NavigationButton() {
                   {component.description}
                 </ListItem>
               ))}
+
+              {/* <div className="col-span-2 flex w-full justify-center">
+                <ListItem
+                  key="SERVICES"
+                  title="SERVICES"
+                  href="/servizi"
+                  className="w-full justify-center"
+                >
+                  Scegli il percorso migliore per implementare Microsoft Teams, grazie ai nostri servizi.
+                </ListItem>
+              </div> */}
+
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>

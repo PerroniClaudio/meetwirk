@@ -104,7 +104,8 @@ function ByWorkspacePage({}: Props) {
               AT THE DESK
             </h1>
             <p className="text-2xl text-center">
-              Concentrati sul lavoro, non sul rumore
+              {/* Concentrati sul lavoro, non sul rumore */}
+              Lavora in tranquillità alla tua scrivania, nessun rumore ostacolerà le tue chiamate.
             </p>
 
             <Link

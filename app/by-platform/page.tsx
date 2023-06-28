@@ -91,7 +91,8 @@ export default function ByPlatformPage() {
           </div>
         </ImageComponent>
       </section>
-      <section className="lg:p-8">
+
+      {/* <section className="lg:p-8">
         <div
           className="container bg-center bg-cover bg-no-repeat mx-auto p-0 lg:rounded"
           style={{ backgroundImage: `url(/images/banner4.webp)` }}>
@@ -114,7 +115,7 @@ export default function ByPlatformPage() {
             </div>
             <div className="w-full flex items-center justify-center">
               <Link
-                // href="/landing/servizi"
+                href="/landing/servizi"
                 href="/servizi"
                 className="bg-torch-500 text-gray-50 text-2xl px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
                 Approfondisci
@@ -122,7 +123,8 @@ export default function ByPlatformPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
     </main>
   );
 }

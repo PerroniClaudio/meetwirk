@@ -1,5 +1,7 @@
 "use client";
 
+// se chiedono di aprire il form da qualsiasi bottone contattaci (al posto ri riportare al bottone presente qui) allora si dovrà separare la parte della section fino al titolo dalla parte del dialog con le funzioni (che verrebbe riutilizzata dappertutto)
+
 import { useState } from "react";
 import {
   Dialog,

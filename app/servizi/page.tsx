@@ -42,7 +42,7 @@ export default function ServiziPage({}: Props) {
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 4500,
+            delay: 7000,
             disableOnInteraction: false,
           }}
           pagination={{
