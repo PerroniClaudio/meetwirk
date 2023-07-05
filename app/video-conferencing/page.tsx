@@ -18,9 +18,9 @@ function VideoConferencingPage({}: Props) {
             Eleva la tua connessione umana <br /> con le nostre soluzioni video
             per Microsoft Teams
           </h3> */}
-          <a href="#contact-us" className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+          {/* <a href="#contact-us" className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
             Contattaci
-          </a>
+          </a> */}
         </div>
       </section>
       <div  className="bg-bottom bg-cover bg-no-repeat" style={{ backgroundImage: "url(/images/onde-bianche.webp)" }}>

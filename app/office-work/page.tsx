@@ -14,9 +14,9 @@ function OfficeWorkPage({}: Props) {
             OFFICE WORK
           </h1>
 
-          <a href="#contact-us" className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+          {/* <a href="#contact-us" className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
             Contattaci
-          </a>
+          </a> */}
         </div>
       </section>
 

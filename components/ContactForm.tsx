@@ -17,6 +17,8 @@ type Props = {};
 interface FormData {
   business: string;
   email: string;
+  field: string;
+  devices: string;
   message: string;
 }
 
@@ -24,10 +26,12 @@ function ContactForm({}: Props) {
   const [formData, setFormData] = useState<FormData>({
     business: "",
     email: "",
+    field: "",
+    devices: "",
     message: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData((prevState) => ({ ...prevState, [name]: value }));
   };
@@ -90,7 +94,7 @@ function ContactForm({}: Props) {
                     />
                   </div>
                   <div className="flex flex-col gap-2">
-                    <label htmlFor="business">Email aziendale</label>
+                    <label htmlFor="email">Email aziendale</label>
                     <input
                       type="email"
                       name="email"
@@ -101,6 +105,36 @@ function ContactForm({}: Props) {
                       placeholder="nome@azienda.com"
                       required
                     />
+                  </div>
+                  <div className="flex flex-col gap-2">
+                    <label htmlFor="field">Settore</label>
+                    <select 
+                      id="field" 
+                      name="field" 
+                      className="px-2 py-1.5 text-base font-normal text-gray-700 border border-solid border-gray-300 rounded focus:text-gray-700 focus:outline-none"
+                      onChange={(e) => handleChange(e)}
+                    >
+                      <option value="" disabled selected>Settore</option>
+                      <option value="Impresa">Piccola-media impresa</option>
+                      <option value="Industria">Industria</option>
+                      <option value="Pubblica Amministrazione">Pubblica Amministrazione</option>
+                    </select>
+                  </div>
+                  <div className="flex flex-col gap-2">
+                    <label htmlFor="devices">Numero di dispositivi telefonici o dipendenti</label>
+                    <select 
+                      id="devices" 
+                      name="devices" 
+                      className="px-2 py-1.5 text-base font-normal text-gray-700 border border-solid border-gray-300 rounded focus:outline-none"
+                      onChange={(e) => handleChange(e)}
+                    >
+                      <option value="" disabled selected>Selezionare la fascia di appartenenza</option>
+                      <option value="0-50">da 0 a 50</option>
+                      <option value="51-100">da 51 a 100</option>
+                      <option value="101-150">da 101 a 150</option>
+                      <option value="151-200">da 151 a 200</option>
+                      <option value="200+">Più di 200</option>
+                    </select>
                   </div>
                   <div className="flex flex-col gap-2">
                     <label htmlFor="message">Ulteriori informazioni</label>
@@ -114,7 +148,8 @@ function ContactForm({}: Props) {
                   </div>
                   <button
                     type="submit"
-                    className="bg-neutral-900 hover:bg-neutral-700 w-full p-4 text-primary-400 rounded font-bold text-gray-50">
+                    className="bg-neutral-900 hover:bg-neutral-700 w-full p-4 text-primary-400 rounded font-bold text-gray-50"
+                  >
                     Contattaci
                   </button>
                 </form>

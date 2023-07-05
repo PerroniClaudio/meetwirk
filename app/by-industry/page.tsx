@@ -43,14 +43,14 @@ function ByIndustryPage({}: Props) {
               esterni, eliminano le luci d’ombra e mantengono l’attenzione su di
               voi e sulla vostra conversazione.
             </p>
-            <Link
+            {/* <Link
               href="#contact-us"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Contattaci
-            </Link>
+            </Link> */}
           </div>
         </ImageComponent>
-        <ImageComponent imageUrl="/images/banner6.webp" invert={true}>
+        <ImageComponent imageUrl="/images/banner13.webp" invert={true}>
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
               PUBBLICA AMMINISTRAZIONE
@@ -66,11 +66,32 @@ function ByIndustryPage({}: Props) {
               tradizionali.
             </p>
 
-            <Link
+            {/* <Link
               href="#contact-us"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Contattaci
-            </Link>
+            </Link> */}
+          </div>
+        </ImageComponent>
+        <ImageComponent imageUrl="/images/banner14.webp">
+          <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
+            <h1 className="text-4xl font-bold text-torch-500 text-center">
+              ISTRUZIONE ED <span className="whitespace-nowrap">E-LEARNING</span>
+            </h1>
+            <p className="text-2xl text-center">
+              Le aule scolastiche continuano ad evolversi e così anche le nostre
+              tecnologie audio-video.
+            </p>
+            <p className="text-2xl text-center">
+              Dotate di tecnologia di tracciamento, consentono ai relatori o
+              insegnanti di svolgere in maniera funzionale le loro lezioni.​
+            </p>
+
+            {/* <Link
+              href="#contact-us"
+              className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+              Contattaci
+            </Link> */}
           </div>
         </ImageComponent>
       </section>

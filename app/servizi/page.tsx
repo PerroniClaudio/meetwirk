@@ -15,7 +15,8 @@ type Props = {};
 
 export default function ServiziPage({}: Props) {
   return (
-    <main className="flex min-h-screen flex-col">
+    <main className="flex min-h-screen flex-col bg-bottom bg-cover bg-no-repeat"
+      style={{ backgroundImage: "url(/images/onde-bianche.webp)" }}>
       <section
         className="w-screen min-h-[45vh] bg-center bg-cover bg-no-repeat "
         style={{ backgroundImage: "url(/images/landing/landing3.webp)" }}>
@@ -31,9 +32,9 @@ export default function ServiziPage({}: Props) {
             Saremo in grado di trovare il percoso ottimale più adatto alle
             vostre esigenze.
           </h3>
-          <a href="#contact-us" className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+          {/* <a href="#contact-us" className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
             Contattaci
-          </a>
+          </a> */}
         </div>
       </section>
 
@@ -50,8 +51,7 @@ export default function ServiziPage({}: Props) {
           }}
           navigation={false}
           modules={[Autoplay, Pagination, Navigation]}
-          className="mySwiper w-screen min-h-[40vh] bg-bottom bg-cover bg-no-repeat "
-          style={{ backgroundImage: "url(/images/onde-bianche.webp)" }}
+          className="mySwiper w-screen flex min-h-[40vh]"
         >
           <SwiperSlide>
             <div className="container mx-auto px-8 py-32 flex flex-col gap-4 text-center text-gray-800 text-xl lg:text-3xl">

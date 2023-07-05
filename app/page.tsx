@@ -10,7 +10,7 @@ function Home({}: Props) {
       // style={{ backgroundImage: "url(/images/6178721.webp)" }}
     >
       <div className="min-h-screen w-full bg-neutral-900/60 px-8 py-16 flex flex-col gap-8 items-center justify-center bg-center bg-cover bg-no-repeat"
-      style={{ backgroundImage: "url(/images/6178721.webp)" }}>
+        style={{ backgroundImage: "url(/images/6178721.webp)" }}>
         <h1 className="text-6xl lg:text-8xl font-bold text-center text-gray-50 drop-shadow-md">
           La soluzione <br /> migliore per il tuo <br /> business?
         </h1>
@@ -56,6 +56,32 @@ function Home({}: Props) {
             Ti forniamo prodotti audio e video di livello professionale, per
             collaborare efficacemente - ovunque ti trovi.
           </p> */}
+        </div>
+      </div>
+
+      <div className="bg-[url(/images/6178721.webp)] py-8">
+        <div className="w-fit m-auto grid grid-cols-1 gap-4 p-4 md:grid-cols-2 xl:gap-x-32 xl:gap-y-10 text-xl font-semibold text-gray-50">
+          <a href="/by-platform" 
+            // className="flex justify-center p-4 rounded-full bg-black hover:bg-torch-500 transition-colors duration-200"
+            className="text-center bg-torch-500 text-gray-50 px-4 py-4 font-bold rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300"
+            >
+            BY DIGITAL PLATFORM
+          </a>
+          <a href="by-industry" 
+            className="text-center bg-torch-500 text-gray-50 px-4 py-4 font-bold rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300"
+          >
+            BY INDUSTRY
+          </a>
+          <a href="by-workspace" 
+            className="text-center bg-torch-500 text-gray-50 px-4 py-4 font-bold rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300"
+          >
+            BY WORKSPACE
+          </a>
+          <a href="servizi" 
+            className="text-center bg-torch-500 text-gray-50 px-4 py-4 font-bold rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300"          
+          >
+            SERVICES
+          </a>
         </div>
       </div>
 

@@ -2,7 +2,8 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import ContactForm from "@/components/ContactForm";
-import { NavigationButton } from "@/components/Navbar";
+import { NavigationButton } from "@/components/NavigationButton";
+import { Nav } from "@/components/Nav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,13 +19,14 @@ export default function RootLayout(props: {
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased overflow-x-hidden`}>
+        {/* <div className="absolute top-2 left-2 md:hidden">
+          <NavigationButton />
+        </div> */}
+        <Nav />
         {props.children}
         {props.landing}
         <ContactForm />
         <Footer />
-        <div className="absolute top-2 left-2">
-          <NavigationButton />
-        </div>
       </body>
     </html>
   );
