@@ -21,25 +21,13 @@ function IstruzionePage({}: Props) {
         </div>
       </section>
 
-      {/* <div  className="bg-bottom bg-cover bg-no-repeat" style={{ backgroundImage: "url(/images/onde-bianche.webp)" }}>
+      <div  className="bg-bottom bg-cover bg-no-repeat" style={{ backgroundImage: "url(/images/onde-bianche.webp)" }}>
         <div className="container mx-auto px-8 py-32 flex flex-col gap-4 text-center text-gray-800 text-xl lg:text-3xl">
           <p>
-            Il valore della{" "}
-            <span className="text-torch-500">connessione umana</span> rende le
-            soluzioni video fondamentali nel business.
-          </p>
-          <p>
-            Ecco perchè le nostre soluzioni di collaboration con{" "}
-            <span className="text-torch-500">Microsoft</span> offrono scelte per
-            qualsiasi tipo di esigenza.
-          </p>
-          <p>
-            Dispositivi Teams per le room, periferiche USB personali e soluzioni
-            di interoperabilità video per dispositivi legacy è quello che troverai
-            da noi.
+            Le aule scolastiche dotate di tecnologia di tracciamento, consentono ai relatori o insegnanti di svolgere in maniera funzionale le loro lezioni.
           </p>
         </div>
-      </div> */}
+      </div>
 
       <section className="flex flex-col gap-4 bg-torch-500">
         <ImageComponent imageUrl="/images/landing/istruzione1.webp">

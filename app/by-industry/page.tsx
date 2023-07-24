@@ -37,12 +37,6 @@ function ByIndustryPage({}: Props) {
               Migliora la tua immagine professionale con le nostre soluzioni
               audio e video.
             </p>
-            <p className="text-2xl text-center">
-              Dai vita alle tue competenze trasversali con audio e video
-              professionali che offrono esperienze di qualità, bloccano i rumori
-              esterni, eliminano le luci d’ombra e mantengono l’attenzione su di
-              voi e sulla vostra conversazione.
-            </p>
             {/* <Link
               href="#contact-us"
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
@@ -63,12 +57,6 @@ function ByIndustryPage({}: Props) {
             <p className="text-2xl text-center">
               La connessione umana tra governo e cittadini è di vitale
               importanza.
-            </p>
-            <p className="text-2xl text-center">
-              Le soluzioni di collaboration che ti offriamo migliorano la tua
-              sicurezza, potenziano i tuoi servizi, permettono corsi di
-              formazione a distanza, mitigando i costi dei tuoi processi
-              tradizionali.
             </p>
 
             {/* <Link
@@ -91,10 +79,6 @@ function ByIndustryPage({}: Props) {
             <p className="text-2xl text-center">
               Le aule scolastiche continuano ad evolversi e così anche le nostre
               tecnologie audio-video.
-            </p>
-            <p className="text-2xl text-center">
-              Dotate di tecnologia di tracciamento, consentono ai relatori o
-              insegnanti di svolgere in maniera funzionale le loro lezioni.​
             </p>
 
             {/* <Link

@@ -21,25 +21,18 @@ function PubblicaAmministrazionePage({}: Props) {
         </div>
       </section>
 
-      {/* <div  className="bg-bottom bg-cover bg-no-repeat" style={{ backgroundImage: "url(/images/onde-bianche.webp)" }}>
+      <div
+        className="bg-bottom bg-cover bg-no-repeat"
+        style={{ backgroundImage: "url(/images/onde-bianche.webp)" }}
+      >
         <div className="container mx-auto px-8 py-32 flex flex-col gap-4 text-center text-gray-800 text-xl lg:text-3xl">
           <p>
-            Il valore della{" "}
-            <span className="text-torch-500">connessione umana</span> rende le
-            soluzioni video fondamentali nel business.
-          </p>
-          <p>
-            Ecco perchè le nostre soluzioni di collaboration con{" "}
-            <span className="text-torch-500">Microsoft</span> offrono scelte per
-            qualsiasi tipo di esigenza.
-          </p>
-          <p>
-            Dispositivi Teams per le room, periferiche USB personali e soluzioni
-            di interoperabilità video per dispositivi legacy è quello che troverai
-            da noi.
+            Le soluzioni di collaboration che ti offriamo migliorano la tua
+            sicurezza, potenziano i tuoi servizi, permettono corsi di formazione
+            a distanza, mitigando i costi dei tuoi processi tradizionali.
           </p>
         </div>
-      </div> */}
+      </div>
 
       <section className="flex flex-col gap-4 bg-torch-500">
         <ImageComponent imageUrl="/images/landing/pubblicaamministrazione1.webp">
@@ -48,23 +41,29 @@ function PubblicaAmministrazionePage({}: Props) {
               CREA MAGGIORE INTERCONNESSIONE TRA P.A. E CITTADINI
             </h1>
             <p className="text-2xl text-center">
-              Il processo di digitalizzazione della Pubblica Amministrazione non è più rimandabile.
+              Il processo di digitalizzazione della Pubblica Amministrazione non
+              è più rimandabile.
             </p>
             <p className="text-2xl text-center">
-              Ti offriamo soluzioni con l’integrazione di Teams per qualsiasi dispositivo: dai telefoni per la scrivania, alle cuffie bluetooth, alle sale videoconferenza.
+              Ti offriamo soluzioni con l’integrazione di Teams per qualsiasi
+              dispositivo: dai telefoni per la scrivania, alle cuffie bluetooth,
+              alle sale videoconferenza.
             </p>
           </div>
         </ImageComponent>
 
         <ImageComponent
           imageUrl="/images/landing/pubblicaamministrazione2.webp"
-          invert={true}>
+          invert={true}
+        >
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
               PIÙ EFFICIENZA, MENO COSTI
             </h1>
             <p className="text-2xl text-center">
-              Scopri come gli strumenti di collaboration possono mantenere la tua forza-lavoro connessa, aumentando la produttività e riducendo i costi.
+              Scopri come gli strumenti di collaboration possono mantenere la
+              tua forza-lavoro connessa, aumentando la produttività e riducendo
+              i costi.
             </p>
           </div>
         </ImageComponent>
