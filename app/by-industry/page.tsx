@@ -48,6 +48,11 @@ function ByIndustryPage({}: Props) {
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Contattaci
             </Link> */}
+            <Link
+              href="/imprese"
+              className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+              Approfondisci
+            </Link>
           </div>
         </ImageComponent>
         <ImageComponent imageUrl="/images/banner13.webp" invert={true}>
@@ -71,6 +76,11 @@ function ByIndustryPage({}: Props) {
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Contattaci
             </Link> */}
+            <Link
+              href="/pubblica-amministrazione"
+              className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+              Approfondisci
+            </Link>
           </div>
         </ImageComponent>
         <ImageComponent imageUrl="/images/banner14.webp">
@@ -92,6 +102,11 @@ function ByIndustryPage({}: Props) {
               className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
               Contattaci
             </Link> */}
+            <Link
+              href="/istruzione"
+              className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+              Approfondisci
+            </Link>
           </div>
         </ImageComponent>
       </section>

@@ -29,7 +29,23 @@ export default function ByPlatformPage() {
       {/* Sezione mezza nera e mezza immagine */}
 
       <section className="flex flex-col gap-4 bg-torch-500">
-        <ImageComponent imageUrl="/images/banner1.webp">
+        <ImageComponent imageUrl="/images/banner15.webp">
+          <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
+            <h1 className="text-4xl font-bold text-torch-500 text-center">
+              MICROSOFT TEAMS
+            </h1>
+            <p className="text-2xl text-center">
+              La piattaforma migliore per supportare il nuovo approccio al lavoro che tutti stiamo sperimentando.
+            </p>
+            <Link
+              // href="/landing/video-conferencing"
+              href="/microsoft-teams"
+              className="bg-torch-500 text-gray-50 px-8 py-4 rounded-full shadow-md hover:bg-torch-600 transition-colors duration-300">
+              Approfondisci
+            </Link>
+          </div>
+        </ImageComponent>
+        <ImageComponent imageUrl="/images/banner1.webp" invert={true}>
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
               VIDEO CONFERENCING
@@ -50,7 +66,7 @@ export default function ByPlatformPage() {
             </Link>
           </div>
         </ImageComponent>
-        <ImageComponent imageUrl="/images/banner2.webp" invert={true}>
+        <ImageComponent imageUrl="/images/banner2.webp">
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
               PHONES E SPEAKERPHONES​
@@ -70,7 +86,7 @@ export default function ByPlatformPage() {
             </Link>
           </div>
         </ImageComponent>
-        <ImageComponent imageUrl="/images/banner3.webp">
+        <ImageComponent imageUrl="/images/banner3.webp" invert={true}>
           <div className="flex flex-col gap-4 mx-auto items-center justify-center py-16 px-8 lg:px-32">
             <h1 className="text-4xl font-bold text-torch-500 text-center">
               HEADSETS
