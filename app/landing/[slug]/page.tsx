@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 type Props = {};
 
-function page({
+function pageRedirect({
   params,
 }: {
   params: {
@@ -21,7 +21,11 @@ function page({
 
   router.push(`/${page.slug}`);
 
-  return <></>;
+  return (
+    <>
+      <p>Redirecting...</p>
+    </>
+  );
 }
 
-export default page;
+export default pageRedirect;

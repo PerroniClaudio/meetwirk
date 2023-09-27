@@ -7,8 +7,7 @@ function HeadsetsPage({}: Props) {
     <main className="flex min-h-screen flex-col">
       <section
         className="w-screen min-h-[45vh] bg-center bg-cover bg-no-repeat "
-        style={{ backgroundImage: "url(/images/landing/landing0.webp)" }}
-      >
+        style={{ backgroundImage: "url(/images/landing/landing0.webp)" }}>
         <div className="h-full min-h-[45vh] w-full bg-neutral-900/80 px-8 py-16 flex flex-col gap-8 items-center justify-center ">
           <h1 className="text-6xl lg:text-8xl font-bold text-center text-gray-50 drop-shadow-md">
             HEADSETS <br />
@@ -24,8 +23,9 @@ function HeadsetsPage({}: Props) {
         </div>
       </section>
 
-      <div  className="bg-top bg-cover bg-no-repeat" style={{ backgroundImage: "url(/images/onde-bianche.webp)" }}>
-
+      <div
+        className="bg-top bg-cover bg-no-repeat"
+        style={{ backgroundImage: "url(/images/onde-bianche.webp)" }}>
         <div className="container mx-auto px-8 py-32 flex flex-col gap-4 text-center text-gray-800 text-xl lg:text-3xl">
           <p className="">
             Le nostre cuffie sono certificate Microsoft e sono in grado di
@@ -40,8 +40,7 @@ function HeadsetsPage({}: Props) {
               className="rounded-full h-64 w-64  bg-center bg-cover bg-no-repeat "
               style={{
                 backgroundImage: "url(/images/landing/headsets1.webp)",
-              }}
-            ></div>
+              }}></div>
             <p className="font-semibold text-center">
               Perché scegliere una cuffia certificata Teams? Perché no?
             </p>
@@ -51,8 +50,8 @@ function HeadsetsPage({}: Props) {
                 severi requisiti di certificazione Microsoft.
               </p>
               <p>
-                Ora tutto è molto più semplice, con un solo pulsante potete attivare
-                istantaneamente Teams.
+                Ora tutto è molto più semplice, con un solo pulsante potete
+                attivare istantaneamente Teams.
               </p>
 
               <p>
@@ -66,13 +65,15 @@ function HeadsetsPage({}: Props) {
               className="rounded-full h-64 w-64  bg-center bg-cover bg-no-repeat "
               style={{
                 backgroundImage: "url(/images/landing/headsets2.webp)",
-              }}
-            ></div>
-            <p className="font-semibold text-center">Dispositivi insuperabili.</p>
+              }}></div>
+            <p className="font-semibold text-center">
+              Dispositivi insuperabili.
+            </p>
             <div className="flex flex-col gap-2">
               <p>
-                Ascoltate e fatevi sempre ascoltare con un’ incredibile chiarezza
-                grazie alle tecnologie integrate per il blocco dei rumori.
+                Ascoltate e fatevi sempre ascoltare con un’ incredibile
+                chiarezza grazie alle tecnologie integrate per il blocco dei
+                rumori.
               </p>
               <p>Le conversazioni saranno più fluide e chiare.</p>
               <p>Semplicemente migliori.</p>
@@ -84,16 +85,16 @@ function HeadsetsPage({}: Props) {
               className="rounded-full h-64 w-64  bg-center bg-cover bg-no-repeat "
               style={{
                 backgroundImage: "url(/images/landing/headsets3.webp)",
-              }}
-            ></div>
+              }}></div>
             <p className="font-semibold text-center">A voi la scelta.</p>
             <div className="flex flex-col gap-2">
-              <p>Con cavo, senza fili, sopra la testa o dietro l'orecchio?</p>
+              <p>
+                Con cavo, senza fili, sopra la testa o dietro l&#39;orecchio?
+              </p>
               <p>
                 Vi offriamo libertà di scelta con la più ampia gamma di cuffie
                 certificate Microsoft Teams.
               </p>
-              {/* <p>Dal treno, all'ufficio e ovunque tu sia. ​</p> */}
             </div>
           </div>
 
@@ -102,21 +103,19 @@ function HeadsetsPage({}: Props) {
               className="rounded-full h-64 w-64  bg-center bg-cover bg-no-repeat "
               style={{
                 backgroundImage: "url(/images/landing/headsets4.webp)",
-              }}
-            ></div>
+              }}></div>
             <p className="font-semibold text-center">Nessun problema.</p>
             <div className="flex flex-col gap-2">
               <p>Avete bisogno di aiuto per gestire le cuffie?</p>
               <p>
                 Con la soluzione software, gestite il loro utilizzo, risolvete i
-                problemi e distribuite gli aggiornamenti del firmware, il tutto in
-                remoto e dal vostro browser web.
+                problemi e distribuite gli aggiornamenti del firmware, il tutto
+                in remoto e dal vostro browser web.
               </p>
               <p>Il management non è mai stato così facile.</p>
             </div>
           </div>
         </section>
-
       </div>
     </main>
   );
