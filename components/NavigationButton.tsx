@@ -46,14 +46,12 @@ const components: { title: string; href: string; description: string }[] = [
     description:
       "Scegli il percorso migliore per implementare Microsoft Teams, grazie ai nostri servizi.",
   },
-  
 ];
 
 export function NavigationButton() {
-
   let pathId = "";
-   useEffect(() => {
-    pathId = window.location.pathname.split('/')[1];
+  useEffect(() => {
+    pathId = window.location.pathname.split("/")[1];
   }, []);
 
   return (
@@ -61,19 +59,19 @@ export function NavigationButton() {
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>
-            <img src="/images/favicon-ift.webp" alt="logo" className="w-6 h-6 mr-4" />
-            {components.find((component) => component.href.slice(1) === pathId)?.title ?? "HOME"}
+            <img
+              src="/images/logo_meetwirk_red.png"
+              alt="logo"
+              className="w-6 h-6 mr-4"
+            />
+            {components.find((component) => component.href.slice(1) === pathId)
+              ?.title ?? "HOME"}
             {/* <FaBars /> */}
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               <div className="col-span-2 flex w-full justify-center">
-                <ListItem
-                  key="HOME"
-                  title="HOME"
-                  href="/"
-                  className="w-full"
-                >
+                <ListItem key="HOME" title="HOME" href="/" className="w-full">
                   La soluzione migliore per il tuo business?
                 </ListItem>
               </div>
@@ -97,7 +95,6 @@ export function NavigationButton() {
                   Scegli il percorso migliore per implementare Microsoft Teams, grazie ai nostri servizi.
                 </ListItem>
               </div> */}
-
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
