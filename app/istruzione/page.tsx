@@ -39,7 +39,7 @@ function IstruzionePage({}: Props) {
               Lezione in presenza o da remoto?
             </p>
             <p className="text-2xl text-center">
-              Ti forniamo gli strumenti giuste per affrontarle entrambe.
+              Ti forniamo gli strumenti giusti per affrontarle entrambe.
             </p>
             <p className="text-2xl text-center">
               Devi solo scegliere quella più adatta a alle tue esigenze.
@@ -54,9 +54,9 @@ function IstruzionePage({}: Props) {
             <h1 className="text-4xl font-bold text-torch-500 text-center">
               E-LEARNING PER LA TUA AZIENDA
             </h1>
-            <p className="text-2xl text-center">
+            {/* <p className="text-2xl text-center">
               Presentare i tuoi servizi a clienti e partner a distanza?
-            </p>
+            </p> */}
             <p className="text-2xl text-center">
               Ridurre i costi di formazione?
             </p>
